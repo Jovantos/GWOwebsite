@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOD WORK ORGANIZATION (GWO)</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <div class="logo">
+                <img src="images/Untitled design.png" alt="GWO Logo">
+            </div>
+            <h1>
+                <span class="green-text">Good</span>
+                <span class="black-text">Work</span><br>
+                <span class="green-text">Organization</span>
+            </h1>
+        </div>
+    </header>
+    
+    <div class="navigation-bar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#get-involved">Get Involved</a></li>
+            <li><a href="#news-events">News & Events</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </div>
+    
+    <section id="our-team">
+        <div class="team-introduction">
+            <p>Welcome to the Good Work Organization (GWO). Our team consists of dedicated individuals committed to improving the lives of people in South Sudan through various humanitarian programs.</p>
+           <b> <p>Meet the dedicated team behind GOOD WORK ORGANIZATION (GWO).</p>
+
+        </div>
+    </section>
+   
+    <section id="team-gallery">
+        <h2>Team Gallery</h2>
+        <div class="gallery-images">
+            <img src="images/photo_5774062838158050010_x.jpg" alt="Gallery Image 1">
+            <img src="images/photo_5774062838158050009_x.jpg" alt="Gallery Image 2">
+            <img src="images/photo_5774062838158050008_x.jpg" alt="Gallery Image 3">
+            <img src="images/photo_5774062838158050007_x.jpg" alt="Gallery Image 4">
+            <img src="images/photo_5774062838158050016_x.jpg" alt="Gallery Image 5">
+            <img src="images/photo_5774062838158050014_x.jpg" alt="Gallery Image 6">
+            <img src="images/photo_5774062838158050015_x.jpg" alt="Gallery Image 7">
+            <img src="images/photo_5774062838158050008_x.jpg" alt="Gallery Image 8">
+            <!-- Add more images as needed -->
+        </div>
+    </section> 
+
+    <section id="video-section">
+    <h2>Featured Video</h2>
+    <div class="video-container">
+        <!-- Embed your video here -->
+        <iframe width="560" height="315" src="images/VID-20240702-WA0340.mp4" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+       
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    
+</body>
+</html>

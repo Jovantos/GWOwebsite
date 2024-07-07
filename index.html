@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOD WORK ORGANIZATION (GWO)</title>
+    <link rel="stylesheet" href="index.css">
+   <style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar {
+    position: relative;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <div class="logo">
+                <img src="images/Untitled design.png" alt="GWO Logo">
+            </div>
+            <h1>
+                <span class="green-text">Good</span>
+                <span class="black-text">Work</span><br>
+                <span class="green-text">Organization</span>
+            </h1>
+            
+        </div>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    </header>
+    
+    <div class="navigation-bar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#our-team">Our Team</a></li>
+            <li><a href="#get-involved">Get Involved</a></li>
+            <li><a href="#news-events">News & Events</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </div>
+    
+    
+    <section id="home">
+        <div class="banner">
+            <h1><p class="slogan">WE COORDINATE RELIEF AND HUMANITARIAN</p></h1>
+        </div>
+        <div class="cta">
+            <a href="#donate" class="button">Donate Now</a>
+            <a href="#volunteer" class="button">Volunteer</a>
+        </div>
+    </section>
+
+    <section id="about-us" class="about-section">
+    <div class="container">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Welcome to GOOD WORK ORGANIZATION (GWO). We are a non-governmental, non-political, and non-profit organization established by Young South Sudanese. Our mission is to develop South Sudan in education, water and sanitation, food security, health, and capacity-building initiatives. We aim to improve social welfare within South Sudan and beyond.</p>
+            
+            <p>South Sudan faces challenges in security, health, education, and infrastructure. As a civil society organization, it is our duty to ensure steady development by addressing these challenges in communities; children, girls, women, youth, and adults.</p>
+            
+            <h3>Our Objectives</h3>
+            <ul class="objectives-list">
+                <li>
+                    <h4>Humanitarian Development Programs</h4>
+                    <p>To run/initiate humanitarian development programs in counties, Payams, Bomas, and other state organs, to eradicate poverty in all its forms among communities and subsections.</p>
+                </li>
+                <li>
+                    <h4>Provide Shelter and Support</h4>
+                    <p>Provide accommodation for the homeless and reach out to the needy and vulnerable people in society to support them.</p>
+                </li>
+                <li>
+                    <h4>Emergency Relief and Support</h4>
+                    <p>Provide emergency support to the vulnerable, including orphans and widows, to meet their urgent needs.</p>
+                </li>
+                <li>
+                    <h4>Engagement and Enlightenment</h4>
+                    <p>Become a platform to engage and enlighten society to be active participants in community development.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+        <div class="about-flex-container">
+            <div class="about-flex-item">
+                <h3>Vision</h3>
+                <img src="images/photo_5774062838158050009_x.jpg" alt="Vision">
+                <p>Our vision is to help our people and do something good for them, especially orphans, widows, elders, and the vulnerable segment of society.</p>
+            </div>
+            <div class="about-flex-item">
+                <h3>Mission</h3>
+                <img src="images/photo_5774062838158050016_x.jpg" alt="Mission">
+                <p>Providing humanitarian aid to orphans, widows, and elders, and uplifting vulnerable segments of society through various programs.</p>
+            </div>
+            <div class="about-flex-item">
+                <h3>Main Objective</h3>
+                <img src="images/photo_5774062838158050008_x.jpg" alt="Main Objective">
+                <p>To improve the social welfare of people within South Sudan and beyond through initiatives in education, health, and economic development.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="programs">
+        <h2>Programs</h2>
+        <div class="programs-flex-container">
+            <div class="programs-flex-item">
+                <img src="images/photo_5774062838158050015_x.jpg" alt="Education">
+                <h3>Education</h3>
+                <p>Supporting education initiatives for underprivileged children.</p>
+            </div>
+            <div class="programs-flex-item">
+                <img src="images/photo_5774062838158050014_x.jpg" alt="Water and Sanitation">
+                <h3>Water and Sanitation</h3>
+                <p>Providing clean water and sanitation facilities in communities.</p>
+            </div>
+            <div class="programs-flex-item">
+                <img src="images/photo_5774062838158050017_x.jpg" alt="Health">
+                <h3>Health</h3>
+                <p>Improving access to healthcare services and promoting health awareness.</p>
+            </div>
+            <div class="programs-flex-item">
+                <img src="images/photo_5774062838158050011_x.jpg" alt="Food Security">
+                <h3>Food Security</h3>
+                <p>Ensuring food security through sustainable agricultural practices.</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="our-team">
+        <div class="team-introduction">
+            <p>Welcome to the Good Work Organization (GWO). Our team consists of dedicated individuals committed to improving the lives of people in South Sudan through various humanitarian programs.</p>
+           <b> <p>Meet the dedicated team behind GOOD WORK ORGANIZATION (GWO).</p>
+
+        </div>
+    </section>
+   
+    <section id="team-gallery">
+        <h2>Team Gallery</h2>
+        <div class="gallery-images">
+            <img src="images/photo_5774062838158050010_x.jpg" alt="Gallery Image 1">
+            <img src="images/photo_5774062838158050009_x.jpg" alt="Gallery Image 2">
+            <img src="images/photo_5774062838158050008_x.jpg" alt="Gallery Image 3">
+            <img src="images/photo_5774062838158050007_x.jpg" alt="Gallery Image 4">
+            <img src="images/photo_5774062838158050016_x.jpg" alt="Gallery Image 5">
+            <img src="images/photo_5774062838158050014_x.jpg" alt="Gallery Image 6">
+            <img src="images/photo_5774062838158050015_x.jpg" alt="Gallery Image 7">
+            <img src="images/photo_5774062838158050008_x.jpg" alt="Gallery Image 8">
+            <!-- Add more images as needed -->
+        </div>
+    </section> 
+
+    <section id="video-section">
+        <h2>Featured Video</h2>
+        <div class="video-container">
+            <!-- Embed your video here -->
+            <iframe width="560" height="315" src="images/VID-20240702-WA0340.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+       
+    <section id="get-involved">
+        <h2>Get Involved</h2>
+        <div class="content">
+            <p>There are many ways you can get involved and support our mission.</p>
+            <ul>
+                <li>Volunteer with us.</li>
+                <li>Donate to support our programs.</li>
+                <li>Become a member.</li>
+                <li>Spread the word about our work.</li>
+            </ul>
+        </div>
+        <div class="cta">
+            <a href="#contact-us" class="button">Contact Us</a>
+        </div>
+    </section>
+    
+
+    <section id="contact-us">
+       
+    <!-- Content Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Left Column -->
+        <div class="flex flex-col space-y-4">
+            <!-- Address -->
+            <div class="bg-white border p-4 text-center flex items-center justify-center">
+                <img aria-hidden="true" alt="location-icon" src="https://openui.fly.dev/openui/48x48.svg?text=📍" class="mx-auto mb-2" />
+                <div>
+                    <h2 class="font-bold">ADDRESS</h2>
+                    <p>P.O. Box Private Bag, Juba South Sudan.</p>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="bg-white border p-4 text-center flex items-center justify-center">
+                <img aria-hidden="true" alt="email-icon" src="https://openui.fly.dev/openui/48x48.svg?text=📧" class="mx-auto mb-2" />
+                <div>
+                    <h2 class="font-bold">EMAIL</h2>
+                    <p>www.chio.org</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="flex flex-col space-y-4">
+            <!-- Phone -->
+            <div class="bg-white border p-4 text-center flex items-center justify-center">
+                <img aria-hidden="true" alt="phone-icon" src="https://openui.fly.dev/openui/48x48.svg?text=📞" class="mx-auto mb-2" />
+                <div>
+                    <h2 class="font-bold">PHONE</h2>
+                    <p>+211 911 089 679</p>
+                </div>
+            </div>
+
+            <!-- Opening Hours -->
+            <div class="bg-white border p-4 text-center flex items-center justify-center">
+                <img aria-hidden="true" alt="opening-hours-icon" src="https://openui.fly.dev/openui/48x48.svg?text=⏰" class="mx-auto mb-2" />
+                <div>
+                    <h2 class="font-bold">OPENING HOURS:</h2>
+                    <p>Monday To Friday 08:00 and 05:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="bg-zinc-100 p-4 mt-4">
+        <h2 class="text-center font-bold mb-4">Send Us a Message</h2>
+        <form class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input type="text" placeholder="Your Name" class="border p-2 w-full" />
+            <input type="email" placeholder="Your Email" class="border p-2 w-full" />
+            <input type="text" placeholder="Phone" class="border p-2 w-full" />
+            <input type="text" placeholder="Subject" class="border p-2 w-full" />
+            <textarea placeholder="Message" class="border p-2 w-full md:col-span-2"></textarea>
+            <button type="submit" class="bg-yellow-500 text-white p-2 w-full md:col-span-2">Send Message</button>
+        </form>
+    </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>About GWO</h3>
+                <p>GOOD WORK ORGANIZATION (GWO) is dedicated to improving the lives of people in South Sudan through various humanitarian programs.</p>
+            </div>
+            <div>
+                <h3>Contact Information</h3>
+                <p>Email: info@gwo.org</p>
+                <p>Phone: +211 123 456 789</p>
+                <p>Address: Juba, South Sudan</p>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <form id="newsletter-form">
+                    <label for="newsletter-email">Email:</label>
+                    <input type="email" id="newsletter-email" name="email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+     document.getElementById('nav-toggle').addEventListener('click', function() {
+    var navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('show');
+});
+
+        
+    </script>
+</body>
+</html>
